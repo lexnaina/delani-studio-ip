@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+}
+.intro {
+  background-image: url(backgrounds/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.Dlogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.MouseClick {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.aboutUs {
+  text-align: center;
+  color: black;
+  font-size: small;
+  font-family: 'Yantramanav', sans-serif;
+}
+.services {
+  background-image: url(backgrounds/s_image.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: small;
+  font-family: 'Yantramanav', sans-serif;
+}
+.hide{
+  display:none;
+}
+
+.Hover {
+  opacity:0;
+  background-color: rgba(255, 255, 255, 0.623);
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%; 
+}
+.custom-info-on-portfolio-images {
+  height: 280px;
+  max-width: 280px;
+  padding:2px;
+}
+.row{
+  padding:2%;
+}
+.Contact-Us {
+  background-image: url(backgrounds/c_image.jpg);
+  background-size:cover;
+  display: cover;
+  padding: 10%;
+}
+form #contact{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+  background:transparent;
+  color: white;
+}
+textarea[type=text] {
+  background:transparent;
+  color: white;
+}
+
+.submit{
+  position:absolute;
+  padding-left: 25%;
+}
+
+.Footer {
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-size: x-small;
+  font-family: 'Amaranth', sans-serif;
+}
